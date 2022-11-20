@@ -1,5 +1,17 @@
 .person{
+    align-items: center;
     display: flex;
     flex-direction: column;
 }
 
+@media screen and (min-width: 0) {
+    .person {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .person {
+        margin-bottom: 0;
+    }
+}
